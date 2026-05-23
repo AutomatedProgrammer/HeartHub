@@ -4,7 +4,7 @@ Project Overview
 Program provides an AHA script that will auto approve students on the AHA website. It also reads the user's email inbox for AHA signups. It takes the AHA sign up students and sends a reminder email for them to pay for the courses. It also checks the inbox for payment emails. The collected students are stored into a database for export into three CSV files. The AHA registration CSV for students that have registered on the AHA website. A RQI registration csv for students who have registered and paid for their classes. And a prepod CSV that syncs the students who have recently paid to the sftp server. This is all done in one single process, which can be set to auto run every X minutes.
 
 INSTALLION 
-Download the release folder and go into the dist folder to find the exe. You'll need to input your information into the config file before running.
+Download the release folder and go into the dist folder to find the exe. You'll need to input your information into the config file before running. Config file is in dist\AHAEmailProgram\_internal. It is named config.json.
 
 KNOWN ISSUES
 Adding students from the AHA website requires the program to be closed and reopened again for the database to update.
