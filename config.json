@@ -1,0 +1,17 @@
+{
+    "MAILBOX" : "example@mailbox.com",
+    "AHA_SENDER" : "example@mailbox.com",
+    "ACUITY_SENDER" : "example@mailbox.com",
+    "REMINDER_DAYS" : 7,
+    "SFTP_HOST" : "examplehost.com",
+    "SFTP_PORT" : 1234,
+    "SFTP_USERNAME" : "user",
+    "SFTP_PASSWORD" : "password",
+    "SFTP_UPLOAD_PATH" : "/uploads",
+    "SFTP_FILENAME" : "example_file.csv",
+    "AHA_EMAIL" : "example@mailbox.com",
+    "AHA_PASSWORD" : "password",
+    "DELAY" : 3,
+    "DRY_RUN" : false,
+    "UPLOAD" : true
+}
